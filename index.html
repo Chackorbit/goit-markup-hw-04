@@ -33,8 +33,8 @@
             </nav>
             
             <ul class="contacts list cont-list">
-                <li class="item"> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li class="item"> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                <li class="item"> <a href="mailto:info@devstudio.com" class="link link-mail">info@devstudio.com</a></li>
+                <li class="item"> <a href="tel:+380961111111" class="link link-number">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -43,7 +43,7 @@
 
         <!-- Герой -->
             <section class="hero">
-                <div class="container cont-size">
+                <div class="container cont-size cont-hero">
                     <h1 class="heading">Эффективные решения <br> для вашего бизнеса</h1>
                     <button type="button" class="button">Заказать услугу</button>
                 </div>
@@ -55,22 +55,22 @@
             <div class="container cont-size">
                 <h2 class="visually-hidden">Преимущества</h2>
                 <ul class="list benefits">
-                    <li class="item">
+                    <li class="item item-antena">
                         <h3 class="header">Внимание к деталям</h3>
                         <p class="tittle">Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
                     </li>
-                    <li class="item">
+                    <li class="item item-clock">
                         <h3 class="header">Пунктуальность</h3>
                         <p class="tittle">Задача организации, в особенности же рамки и место обучения кадров влечет за
                             собой.</p>
                     </li>
-                    <li class="item">
+                    <li class="item item-diagrama">
                         <h3 class="header">Планирование</h3>
                         <p class="tittle">Равным образом консультация с широким активом в значительной степени
                             обуславливает.</p>
                     </li>
-                    <li class="item">
+                    <li class="item item-astronaut">
                         <h3 class="header">Современные технологии</h3>
                         <p class="tittle">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -96,15 +96,23 @@
                 <h2 class="header">Наша команда</h2>
                 <ul class="list our-team">
 
-                    <li class="item">
+                    <li class="item item-media">
                         <img class="team-img" src="./Img/OurTeam/img-(1).jpg" alt="img-1" width="270" height="260">
                         <div class="item-text">
                             <h3 class="name">Игорь Демьяненко</h3>
                             <p class="tittle">Product Designer</p>
+                            <ul>
+                                <li>
+                                    <svg>
+                                        <use href="./img/symbol-defs.svg#icon-instagram">
+                                        </use>
+                                    </svg>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                 
-                    <li class="item">
+                    <li class="item item-media">
                         <img class="team-img" src="./Img/OurTeam/img-(2).jpg" alt="img-2" width="270" height="260">
                         <div class="item-text">
                             <h3 class="name">Ольга Репина</h3>
@@ -112,7 +120,7 @@
                         </div>
                     </li>
                 
-                    <li class="item">
+                    <li class="item item-media">
                         <img class="team-img" src="./Img/OurTeam/img-(3).jpg" alt="img-3" width="270" height="260">
                         <div class="item-text">
                             <h3 class="name">Николай Тарасов</h3>
@@ -120,11 +128,14 @@
                         </div>
                     </li>
                 
-                    <li class="item">
+                    <li class="item item-media">
                         <img class="team-img" src="./Img/OurTeam/img-(4).jpg" alt="img-4" width="270" height="260">
                         <div class="item-text">
                             <h3 class="name">Михаил Ермаков</h3>
                             <p class="tittle">UI Designer</p>
+                            <ul>
+
+                            </ul>
                         </div>
                     </li>
                 </ul>
@@ -143,6 +154,16 @@
                     <li class="item"> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                     <li class="item"> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
                 </ul>
+
+                <div class="flex-join">
+                    <p class="join">присоединяйтесь</p>
+                    <ul class="list social-footer">
+                    <li class="li-item"><a href="" class="soca-link"><img src="./Img/Icon/social/soc-footer/instagram.svg" alt=""></a></li>
+                    <li class="li-item"><a href="" class="soca-link"><img src="./Img/Icon/social/soc-footer/twitter.svg" alt=""></a></li>
+                    <li class="li-item"><a href="" class="soca-link"><img src="./Img/Icon/social/soc-footer/facebook.svg" alt=""></a></li>
+                    <li class="li-item"><a href="" class="soca-link"><img src="./Img/Icon/social/soc-footer/linkedin.svg" alt=""></a></li>
+                    </ul>
+                </div>
             </address>
         </div>
     </footer>

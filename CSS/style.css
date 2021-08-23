@@ -183,6 +183,23 @@ button {
   color: var(--brand-color);
 }
 
+.contacts .link-mail::before {
+  content: "";
+
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url("../Img/Icon/envelope.svg");
+}
+
+.contacts .link-number::before {
+  content: "";
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  background-image: url("../Img/Icon/smartphone.svg");
+}
+
 /* Герой */
 .hero .heading {
   color: var(--ptimary-lighte-color);
@@ -204,6 +221,21 @@ button {
 
   padding-top: 200px;
   padding-bottom: 200px;
+
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../Img/Фон/Img-min.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero .button {
@@ -274,6 +306,44 @@ button {
   letter-spacing: 0.03em;
 }
 
+.benefits .item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.benefits .item-antena::before {
+  background-image: url("../Img/Icon/antenna.svg");
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.benefits .item-clock::before {
+  background-image: url("../Img/Icon/clock.svg");
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.benefits .item-diagrama::before {
+  background-image: url("../Img/Icon/diagram.svg");
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.benefits .item-astronaut::before {
+  background-image: url("../Img/Icon/astronaut.svg");
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* Чем занимаемся */
 
 .work {
@@ -321,6 +391,22 @@ button {
 
 .our-team .item:nth-last-child(4n + 1) {
   margin-right: 0;
+}
+
+/* .social-media {
+  display: flex;
+  justify-content: center;
+
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  list-style: none;
+
+  height: 44px;
+} */
+
+.item-text .tittle {
+  margin-bottom: 16px;
 }
 
 .item-text {
@@ -415,6 +501,44 @@ button {
 .contacts.contacts-footer .item {
   margin-bottom: 9px;
   margin-left: 0;
+}
+
+.social-footer {
+  display: flex;
+}
+
+.soca-link {
+  display: flex;
+  padding: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.li-item:last-child {
+  margin-right: 0;
+}
+
+.li-item {
+  margin-right: 10px;
+}
+
+.join {
+  display: block;
+  margin-bottom: 20px;
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ptimary-lighte-color);
+}
+
+.flex-join {
+  display: flex;
+  flex-wrap: wrap;
+  width: 206px;
 }
 
 /* Портфолио */
