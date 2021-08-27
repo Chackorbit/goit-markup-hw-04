@@ -543,9 +543,17 @@ button {
   margin-left: 0;
 }
 
-.soc-container-footer {
+.posicion-foot {
   display: flex;
-  justify-content: center;
+  align-items: baseline;
+}
+
+.container-footer {
+  margin-left: 215px;
+  margin-right: 70px;
+}
+
+.soc-container-footer {
 }
 
 .join {
@@ -675,7 +683,6 @@ button {
 
   text-align: center;
   letter-spacing: 0.03em; */
-
   margin-bottom: 50px;
 }
 
@@ -706,6 +713,9 @@ button {
   color: var(--ptimary-lighte-color);
   background-color: var(--brand-color);
   cursor: pointer;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Карточки */
