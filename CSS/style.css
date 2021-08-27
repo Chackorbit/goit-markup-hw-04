@@ -434,7 +434,8 @@ button {
   background-color: var(--brand-color);
 }
 
-.soc-link:hover svg {
+.soc-link:hover svg,
+.soc-link:focus svg {
   fill: var(--ptimary-lighte-color);
 }
 
@@ -619,7 +620,8 @@ button {
   padding: 16px 32px;
 }
 
-.icon-client:hover {
+.icon-client:hover,
+.icon-client:focus {
   fill: var(--brand-color);
   border: 1px solid var(--brand-color);
 }
