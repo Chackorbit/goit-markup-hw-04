@@ -553,12 +553,13 @@ button {
 .posicion-foot {
   display: flex;
   align-items: baseline;
+  flex-direction: row;
 }
 
-.container-footer {
+/* .container-footer {
   margin-left: 215px;
   margin-right: 70px;
-}
+} */
 
 .soc-container-footer {
 }
