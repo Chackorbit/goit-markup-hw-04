@@ -188,6 +188,9 @@ button {
 
 .icon {
   fill: #757575;
+}
+
+.icon-header {
   margin-right: 10px;
 }
 
@@ -419,13 +422,16 @@ button {
   list-style: none;
 }
 
+.social-item {
+  margin-right: 10px;
+}
+
 .social-links .link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-
-  margin-right: 10px;
-  padding: 12px;
   border-radius: 50%;
   color: #afb1b8;
 }
@@ -624,6 +630,10 @@ button {
 .icon-client:focus {
   fill: var(--brand-color);
   border: 1px solid var(--brand-color);
+}
+
+.soc-foot-item {
+  margin-right: 10px;
 }
 
 /* Портфолио */
