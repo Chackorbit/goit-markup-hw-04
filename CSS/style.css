@@ -205,6 +205,10 @@ button {
   fill: var(--brand-color);
 }
 
+.link:focus svg {
+  fill: var(--brand-color);
+}
+
 /* Герой */
 .hero .heading {
   color: var(--ptimary-lighte-color);
@@ -355,7 +359,11 @@ button {
 }
 
 .cont-icon {
-  padding: 25px 100px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 
   background: var(--bg-color);
@@ -444,7 +452,8 @@ button {
   color: #afb1b8;
 }
 
-.social-links .link:hover {
+.social-links .link:hover,
+.social-links .link:focus {
   background-color: var(--brand-color);
 }
 
@@ -462,8 +471,7 @@ button {
 }
 
 .item-text {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px;
 }
 
 .team {
@@ -563,10 +571,9 @@ button {
   align-items: baseline;
 }
 
-/* .container-footer {
-  margin-left: 215px;
+.container-footer {
   margin-right: 70px;
-} */
+}
 
 .soc-container-footer {
 }
@@ -594,10 +601,12 @@ button {
 
 /* -----Постоянные клиенты------*/
 
+.section-clients {
+  padding: 94px 0;
+}
+
 .container-clients {
   text-align: center;
-  padding-top: 90px;
-  padding-bottom: 88px;
 }
 
 .tittle-clients {
@@ -632,14 +641,31 @@ button {
 
 .icon-client {
   fill: var(--color-icon);
-  border: 1px solid var(--color-icon);
-  padding: 16px 32px;
 }
 
-.icon-client:hover,
+/* .icon-client:hover,
 .icon-client:focus {
   fill: var(--brand-color);
+} */
+
+.link-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--color-icon);
+}
+
+.link-client:hover,
+.link-client:focus {
+  fill: var(--brand-color);
   border: 1px solid var(--brand-color);
+}
+
+.link-client:hover svg,
+.link-client:focus svg {
+  fill: var(--brand-color);
 }
 
 .soc-foot-item {
@@ -689,11 +715,11 @@ button {
   text-decoration: none;
 }
 
-.portfolio a:hover,
+/* .portfolio a:hover,
 .portfolio a:focus {
   text-decoration: underline;
   text-decoration-color: var(--brand-color);
-}
+} */
 
 .filtr {
   display: flex;
@@ -809,4 +835,8 @@ button {
   margin-top: -5px;
   border: 1px solid var(--bg-cards);
   border-top: none;
+}
+
+.link-card {
+  text-decoration: none;
 }
